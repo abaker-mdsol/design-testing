@@ -1,15 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import { LandingPage } from './pages/landingPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <ul>
-            <li>test site 1</li>
-            <li>test site 2</li>
-          </ul>
-      </header>
+    <div className="page-directory">
+        <LandingPage />
     </div>
   );
 }
