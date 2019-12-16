@@ -10,7 +10,6 @@ export class PrototypeOne extends React.Component {
           <CheckmatePlaceholder />
             <Link to="/">Return</Link>
             <div><h1>Prototype 1</h1></div>
-
             <ul>              
             </ul>
         </div>
