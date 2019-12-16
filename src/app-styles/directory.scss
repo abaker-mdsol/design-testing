@@ -5,15 +5,30 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
-  .page-directory h1 {
-    color: green;
-  }
+/* --------- basics --------- */
 
+body {
+ background: #121212;
+
+}
+
+a {
+  color: #235523;
+}
+
+.landing-page-wrap {
+  padding: 20px;
+  margin: 20px;
+}
+
+.page-directory h1 {
+  color: white;
+}
   
