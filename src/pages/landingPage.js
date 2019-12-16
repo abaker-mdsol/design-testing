@@ -9,10 +9,10 @@ export class LandingPage extends React.Component {
         <div className="landing-page-wrap">
             <div><h1>Prototypes</h1></div>
             <ul>
-              <Link to="/prototype-1">Prototype 1</Link>
-              <li>Prototype 1</li>
-              <li>Test site 2</li>
-              <li>Test site 3</li>
+              <Link to="/TabbingSelectingFromList">Tabbing and Selecting in Tables</Link>
+              <li>..</li>
+              <li>..</li>
+              <li>...</li>
             </ul>
         </div>
       );

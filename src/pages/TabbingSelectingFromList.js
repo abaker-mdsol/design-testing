@@ -3,15 +3,14 @@ import { Link } from 'react-router-dom';
 import { CheckmatePlaceholder } from './checkmatePlaceholder';
 import PageHeader from '@mdsol/lego/lib/PageHeader';
 
-export class PrototypeOne extends React.Component {
+export class TabbingSelectingFromList extends React.Component {
   
   render() {
     return (
         <div className="">
           <CheckmatePlaceholder />
-          <PageHeader heading="somgd" />
-            <Link to="/">Return</Link>
-            <div><h1>Prototype 1</h1></div>
+          <PageHeader heading="Tabbing and Selecting Items in a Table" breadcrumb={<Link to="/">back</Link>} />
+
         </div>
       );
   }   

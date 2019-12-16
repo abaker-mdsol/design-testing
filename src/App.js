@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { LandingPage } from './pages/landingPage';
-import { PrototypeOne } from './pages/prototype-01';
+import { TabbingSelectingFromList } from './pages/TabbingSelectingFromList';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Router>
           <Switch>
             <Route path="/" exact component={LandingPage} />
-            <Route path="/prototype-1" component={PrototypeOne} />            
+            <Route path="/TabbingSelectingFromList" component={TabbingSelectingFromList} />            
           </Switch>
         </Router>
     </div>
