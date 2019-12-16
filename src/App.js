@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import { LandingPage } from './pages/landingPage';
-import { TabbingSelectingFromList } from './pages/TabbingSelectingFromList';
+import { TabbingSelectingFromList } from './pages/TabbingSelectingFromList/TabbingSelectingFromList';
 
 function App() {
   return (
